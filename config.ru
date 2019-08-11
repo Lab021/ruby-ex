@@ -28,11 +28,11 @@ map '/' do
   welcome = proc do |env|
     [200, { "Content-Type" => "text/html" }, [<<WELCOME_CONTENTS
 <!doctype html>
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome to OpenShift</title>
+  <title>Welcome to KOMERI CLOUD</title>
 
 
 <style>
@@ -239,7 +239,7 @@ pre {
 
 <section class='container'>
           <hgroup>
-            <h1>안녕하세요. KOMERI CLOUD PLATFORM 입니다.</h1>
+            <h1>Welcome 앤to your Ruby application on OpenShift</h1>
           </hgroup>
 
 
