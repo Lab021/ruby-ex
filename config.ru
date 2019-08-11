@@ -226,7 +226,7 @@ pre {
 
 <section class='container'>
           <hgroup>
-            <h1>Welcome to your Ruby application on OpenShift</h1>
+            <h1>Welcome to KOMERI CLOUD PLATFORM - Ver 0.1</h1>
           </hgroup>
 
 
@@ -290,7 +290,7 @@ $ git push</pre>
         </div>
 
         <footer>
-          <div>코메리<a href="https://www.openshift.com/"></a></div>
+          <div>KOMERI CLOUD PLATFORM<a href="https://www.openshift.com/"></a></div>
         </footer>
 </section>
 
