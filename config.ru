@@ -239,7 +239,7 @@ pre {
 
 <section class='container'>
           <hgroup>
-            <h1>Welcome to Komeri Platform</h1>
+            <h1>Welcome to Komeri Platform Ver 2.0</h1>
           </hgroup>
 
 
