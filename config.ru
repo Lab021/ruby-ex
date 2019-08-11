@@ -32,7 +32,7 @@ map '/' do
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>Welcome 가오to OpenShift</title>
+  <title>Welcome to OpenShift</title>
 
 
 <style>
