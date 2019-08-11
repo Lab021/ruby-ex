@@ -239,7 +239,7 @@ pre {
 
 <section class='container'>
           <hgroup>
-            <h1>Welcome to your Ruby application on OpenShift</h1>
+            <h1>안녕하세요. KOMERI CLOUD PLATFORM 입니다.</h1>
           </hgroup>
 
 
