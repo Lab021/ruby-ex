@@ -32,7 +32,7 @@ map '/' do
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Welcome to KOMERI CLOUD</title>
+  <title>Welcome to OpenShift</title>
 
 
 <style>
@@ -239,7 +239,7 @@ pre {
 
 <section class='container'>
           <hgroup>
-            <h1>Welcome 앤to your Ruby application on OpenShift</h1>
+            <h1>Welcome to your Ruby application on OpenShift</h1>
           </hgroup>
 
 
