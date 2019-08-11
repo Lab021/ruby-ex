@@ -229,7 +229,6 @@ pre {
             <h1>Welcome to KOMERI CLOUD PLATFORM - Ver 0.1</h1>
           </hgroup>
 
-
         <div class="row">
           <section class='col-xs-12 col-sm-6 col-md-6'>
             <section>
@@ -239,28 +238,17 @@ pre {
                   You can configure a webhook in your repository to make OpenShift automatically start a build whenever you push your code:
                 </p>
 
-<ol>
-  <li>From the Web Console homepage, navigate to your project</li>
-  <li>Click on Browse &gt; Builds</li>
-  <li>From the view for your Build click on the button to copy your GitHub webhook</li>
-  <li>Navigate to your repository on GitHub and click on repository settings &gt; webhooks</li>
-  <li>Paste your webhook URL provided by OpenShift &mdash; that's it!</li>
-</ol>
-<p>After you save your webhook, if you refresh your settings page you can see the status of the ping that Github sent to OpenShift to verify it can reach the server.</p>
-<p>Note: adding a webhook requires your OpenShift server to be reachable from GitHub.</p>
+                <h2>Development Resources</h2>
+                  <ul>
+                    <li><a href="http://docs.okd.io/latest/welcome/index.html">OpenShift Documentation</a></li>
+                    <li><a href="https://github.com/openshift/origin">Openshift Origin GitHub</a></li>
+                    <li><a href="https://github.com/openshift/source-to-image">Source To Image GitHub</a></li>
+                    <li><a href="http://docs.okd.io/latest/using_images/s2i_images/ruby.html">Getting Started with Ruby on OpenShift</a></li>
+                    <li><a href="http://stackoverflow.com/questions/tagged/openshift">Stack Overflow questions for OpenShift</a></li>
+                    <li><a href="http://git-scm.com/documentation">Git documentation</a></li>
+                  </ul>
 
-                <h3>Working in your local Git repository</h3>
-                <p>If you forked the application from the OpenShift GitHub example, you'll need to manually clone the repository to your local system. Copy the application's source code Git URL and then run:</p>
 
-<pre>$ git clone &lt;git_url&gt; &lt;directory_to_create&gt;
-
-# Within your project directory
-# Commit your changes and push to OpenShift
-
-$ git commit -a -m 'Some commit message'
-$ git push</pre>
-
-<p>After pushing changes, you'll need to manually trigger a build if you did not setup a webhook as described above.</p>
       </section>
           </section>
           <section class="col-xs-12 col-sm-6 col-md-6">
