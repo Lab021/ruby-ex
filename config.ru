@@ -290,7 +290,7 @@ $ git push</pre>
         </div>
 
         <footer>
-          <div><a href="https://www.openshift.com/"></a></div>
+          <div>코메리<a href="https://www.openshift.com/"></a></div>
         </footer>
 </section>
 
